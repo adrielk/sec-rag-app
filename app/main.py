@@ -29,7 +29,6 @@ if submit and ticker and question:
             answer = manual_answer(doc_path, question)
         else:
             answer = langchain_answer(doc_path, question)
-
         # Step 3: Show Result
         st.success("Answer:")
         st.write(answer)
