@@ -14,6 +14,7 @@ streamlit
 # Optional for LangChain
 langchain
 tiktoken
+langchain-community
 
 # Optional for LlamaIndex
 llama-index
